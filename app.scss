@@ -1,0 +1,34 @@
+// Imports 
+@import './css/variables';
+@import './css/mixins';
+
+// Views
+@import './css/home';
+
+
+// Esentials
+
+body {
+	font-family: 'Roboto', sans-serif;
+	color: $gris;
+}
+
+
+// Inputs 
+
+.form-control {
+	border-radius: 0px;
+	border: 1px solid $gris;
+	height: 45px;
+	letter-spacing: 3px;
+	font-weight: 100;
+}
+.btn-sub {
+	background-color: $grisOscuro;
+	color: $blanco;
+	width: 100%;
+	height: 40px;
+	border-radius: 0;
+	font-weight: 600;
+	letter-spacing: 3px;
+}

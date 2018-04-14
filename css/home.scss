@@ -1,0 +1,53 @@
+@import './variables';
+
+.home {
+	width: 100%;
+	min-height: 100vh;
+	background-image: url(img/cumbre.png);
+	background-position: center 150px;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+
+	&Container {
+		width: 100%;
+		min-height: 100vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: top;
+		align-items: center;
+
+		&Login {
+			margin-top: 200px;
+			max-width: 600px;
+			text-align: center;
+
+			h1 {
+				font-size: 36px;
+				font-weight: 100;
+				letter-spacing: 6px;
+			}
+			p {
+				font-size: 12px;
+				font-weight: 100;
+			}
+		}
+	}
+}
+.u-logo {
+	img {
+		max-width: 400px;
+		position: relative;
+		display: block;
+	}
+}
+.u-form {
+	.form-control {
+		text-align: center;
+	}
+	a {
+		color: $gris;
+		font-weight: 100;
+		letter-spacing: 2px;
+	}
+}
