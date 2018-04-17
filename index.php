@@ -2,9 +2,12 @@
 <html lang="es">
 <?php require_once('views/head.php'); ?>
 <body>
+    <?php 
+    if(isset($_REQUEST['content'])){
+      require_once('views/header.php');
+    }
 
-    <?php require_once('views/header.php'); ?>
-    <?php if(!isset($_REQUEST['content'])){
+    if(!isset($_REQUEST['content'])){
       require_once('views/home.php');
     }elseif($_REQUEST['content']=='dashboard'){
       require_once('views/dashboard.php');

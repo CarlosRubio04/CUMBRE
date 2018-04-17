@@ -3,7 +3,12 @@
 @import './css/mixins';
 
 // Views
+
+//Home 
 @import './css/home';
+
+// Header
+@import './css/header';
 
 
 // Esentials
@@ -25,7 +30,7 @@ body {
 }
 .btn-sub {
 	background-color: $grisOscuro;
-	color: $blanco;
+	color: $blanco !important;
 	width: 100%;
 	height: 40px;
 	border-radius: 0;

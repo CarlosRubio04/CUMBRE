@@ -17,9 +17,10 @@
 						<input type="password" class="form-control" name="pass" placeholder="Ingresa tu contraseña">
 					</div>
 					<div class="form-group">
-						<button type="submit" class="btn btn-sub">
+						<!-- <button type="submit" class="btn btn-sub">
 							INGRESAR
-						</button>
+						</button> -->
+						<a href="?content=dashboard" class="btn btn-sub">INGRESAR</a>
 					</div>
 				</form>
 				<a href="#" class="text-center">
