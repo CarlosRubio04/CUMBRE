@@ -11,6 +11,14 @@
       require_once('views/home.php');
     }elseif($_REQUEST['content']=='dashboard'){
       require_once('views/dashboard.php');
+    }elseif($_REQUEST['content']=='alistamiento'){
+      require_once('views/alistamiento.php');
+    }elseif($_REQUEST['content']=='base'){
+      require_once('views/base.php');
+    }elseif($_REQUEST['content']=='uno'){
+      require_once('views/uno.php');
+    }elseif($_REQUEST['content']=='dos'){
+      require_once('views/dos.php');
     }else{
       require_once('views/404.php');
     } 

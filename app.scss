@@ -11,6 +11,12 @@
 @import './css/header';
 
 
+// Dashboard
+@import './css/dashboard';
+
+// Alistamiento
+@import './css/alistamiento';
+
 // Esentials
 
 body {
@@ -18,16 +24,12 @@ body {
 	color: $gris;
 }
 
-
-// Inputs 
-
-.form-control {
-	border-radius: 0px;
-	border: 1px solid $gris;
-	height: 45px;
-	letter-spacing: 3px;
-	font-weight: 100;
+.main {
+	min-height: 100vh;
+	background-color: $back;
+	padding-top: 120px;
 }
+// Inputs 
 .btn-sub {
 	background-color: $grisOscuro;
 	color: $blanco !important;
@@ -36,4 +38,23 @@ body {
 	border-radius: 0;
 	font-weight: 600;
 	letter-spacing: 3px;
+}
+
+.btn-main {
+	background-color: transparent;
+	display: block;
+	color: $gris;
+	border: 2px solid $gris;
+	border-radius: 20px;
+	text-transform: uppercase;
+	font-weight: 100;
+	letter-spacing: 3px;
+}
+
+.title {
+	margin: 0;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: 100;
+	letter-spacing: 4px;
 }

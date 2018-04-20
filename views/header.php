@@ -1,5 +1,5 @@
 <header>
-	<div class="nav">
+	<div class="nav container">
 		<div class="navLogo">
 			<img src="img/logo.png" alt="CUMBRE">
 		</div>
