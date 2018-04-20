@@ -10,19 +10,19 @@
 			<div class="col-md-3">
 				<div class="fase">
 					<h1>Fase uno</h1>
-					<a href="?content=cronograma" class="btn btn-main">Agregar Actividades</a>
+					<a href="?content=agregar-actividad" class="btn btn-main">Agregar Actividades</a>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="fase">
 					<h1>Fase dos</h1>
-					<a href="?content=cronograma" class="btn btn-main">Agregar Actividades</a>
+					<a href="?content=agregar-actividad" class="btn btn-main">Agregar Actividades</a>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="fase">
 					<h1>Fase Tres</h1>
-					<a href="?content=cronograma" class="btn btn-main">Agregar Actividades</a>
+					<a href="?content=agregar-actividad" class="btn btn-main">Agregar Actividades</a>
 				</div>
 			</div>
 			<div class="col-md-3">

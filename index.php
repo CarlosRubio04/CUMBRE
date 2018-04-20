@@ -27,6 +27,8 @@
       require_once('views/etapas.php');
     }elseif($_REQUEST['content']=='agregar-actividad'){
       require_once('views/agregar-actividad.php');
+    }elseif($_REQUEST['content']=='cronograma'){
+      require_once('views/cronograma.php');
     }else{
       require_once('views/404.php');
     } 
