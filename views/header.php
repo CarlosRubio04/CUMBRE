@@ -7,7 +7,7 @@
 		</div>
 		<div class="navItems">
 			<ul>
-				<li><a href="#">Calendario de actividades</a></li>
+				<li><a href="?content=cronograma">Calendario de actividades</a></li>
 				<li><a href="#">Jhon Doe</a></li>
 				<li>
 					<a href="#" onclick="openMenu()">

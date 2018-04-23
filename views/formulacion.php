@@ -45,9 +45,6 @@
 						<label for="justificacion">Justificación del proyecto</label>
 						<textarea name="justificacion" id="" rows="5" class="form-control" placeholder="Justificación del proyecto."></textarea>
 					</div>
-				</div>
-
-				<div class="col-md-6">
 					<div class="form-group">
 						<label for="">Descripción del proyecto</label>
 						<textarea name="" id="" rows="5" class="form-control" placeholder="Descripción del proyecto."></textarea>
@@ -60,6 +57,60 @@
 					<div class="form-group">
 						<label for="">Objetivos especificos</label>
 						<textarea name="" id="" rows="5" class="form-control" placeholder="Objetivos especificos"></textarea>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<h4>Alcance e impacto</h4>
+					<hr>
+					<h4>Tiempo</h4>
+					<hr>
+
+					<div class="form-group">
+						<label for="">Fecha de inicio</label>
+						<input type="date" name="" class="form-control">
+					</div>
+
+					<div class="form-group">
+						<label for="">Fecha de finalización</label>
+						<input type="date" name="" class="form-control">
+					</div>
+					
+					<div class="form-group">
+						<label for="">Metodología</label>
+						<input type="text" name="" class="form-control" placeholder="Metodología">
+					</div>
+					<div class="form-group">
+						<label for="">Resultados esperados</label>
+						<input type="text" name="" class="form-control" placeholder="Resultados esperados">
+					</div>
+					<div class="form-group">
+						<label for="">Cronograma</label>
+						<a href="?content=cronograma" class="btn btn-main">Cronograma</a>
+					</div>
+					<div class="form-group">
+						<label for="">Ejecución del proyecto</label>
+						<input type="text" name="" class="form-control" placeholder="Ejecución del proyecto">
+					</div>
+					<div class="form-group">
+						<label for="">Resultados</label>
+						<input type="text" name="" class="form-control" placeholder="Resultados">
+					</div>
+					<div class="form-group">
+						<label for="">Análisis de resultados</label>
+						<input type="text" name="" class="form-control" placeholder="Análisis de resultados">
+					</div>
+					<div class="form-group">
+						<label for="">Productos</label>
+						<input type="text" name="" class="form-control" placeholder="Productos">
+					</div>
+					<div class="form-group">
+						<label for="">Conclusiones</label>
+						<textarea name="" id="" rows="5" class="form-control" placeholder="Conclusiones"></textarea>
+					</div>
+					<div class="form-group">
+						<label for="">Bibliografía</label>
+						<textarea name="" id="" rows="5" class="form-control" placeholder="Bibliografía"></textarea>
 					</div>
 					<div class="form-group">
 						<button type="submit" class="btn btn-sub">ENVIAR</button>

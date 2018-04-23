@@ -1,2 +1,11 @@
 @import './variables';
 
+.curso {
+	background-color: $blancusco;
+	padding: 1em;
+
+	p {
+		font-size: 10px;
+		margin: 10px 0;
+	}
+}

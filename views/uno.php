@@ -19,7 +19,7 @@
 				</p>
 				<hr/>
 
-				<a href="?content=base" class="btn btn-main">
+				<a href="?content=cursos" class="btn btn-main">
 					INGRESAR
 				</a>
 			</div>
