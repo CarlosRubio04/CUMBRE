@@ -31,6 +31,12 @@
       require_once('views/cronograma.php');
     }elseif($_REQUEST['content']=='cursos'){
       require_once('views/cursos.php');
+    }elseif($_REQUEST['content']=='perfil'){
+      require_once('views/profile.php');
+    }elseif($_REQUEST['content']=='dashboard-admin'){
+      require_once('views/dashboard-admin.php');
+    }elseif($_REQUEST['content']=='upload-teams'){
+      require_once('views/upload-teams.php');
     }else{
       require_once('views/404.php');
     } 

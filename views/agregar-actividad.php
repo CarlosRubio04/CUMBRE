@@ -41,7 +41,8 @@
 						<input type="text" name="" class="form-control" placeholder="Ensayo escrito">
 					</div>
 					<div class="form-group">
-						<button type="submit" class="btn btn-sub">ENVIAR</button>
+						<!-- <button type="submit" class="btn btn-sub">ENVIAR</button> -->
+						<a href="?content=cronograma" class="btn btn-sub">ENVIAR</a>
 					</div>
 				</form>
 			</div>
