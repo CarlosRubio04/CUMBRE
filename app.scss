@@ -33,6 +33,56 @@ body {
 	color: $gris;
 }
 
+.loader {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: $verdeOscuro;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 9999999;
+}
+#mountain {
+	.circle {
+		fill: none;
+		stroke: $blanco;
+		stroke-width: 6px;
+		animation: loader 2s ease-in-out infinite;
+		/*stroke-dashoffset: 780px;
+		stroke-dasharray: 700px 550px;*/
+	}
+}
+
+@keyframes 	loader {
+	0% {
+		stroke-dashoffset: 450px;
+		stroke-dasharray: 600px 650px;
+	}
+	25% {
+		stroke-dashoffset: -150px;
+		stroke-dasharray: 5px 1250px;
+	}
+	50% {
+		stroke-dashoffset: 780px;
+		stroke-dasharray: 300px 950px;
+	}
+	70% {
+		stroke-dashoffset: 450px;
+		stroke-dasharray: 600px 650px;
+	}
+	90% {
+		stroke-dashoffset: 650px;
+		stroke-dasharray: 800px 320px;
+	}
+	100% {
+		stroke-dashoffset: 650px;
+		stroke-dasharray: 800px 320px;
+	}
+}
+
 .main {
 	min-height: 100vh;
 	background-color: $back;

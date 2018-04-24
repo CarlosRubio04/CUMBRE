@@ -2,6 +2,7 @@
 <html lang="es">
 <?php require_once('views/head.php'); ?>
 <body>
+    <?php require_once('views/loader.php'); ?>
     <?php 
     if(isset($_REQUEST['content'])){
       require_once('views/header.php');

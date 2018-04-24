@@ -11,3 +11,21 @@ function openMenu() {
 function closeMenu() {
 	$menu.fadeOut();
 }
+
+//Loadder
+
+$loadder = $('#loader');
+
+function loading() {
+	$loadder.fadeIn();
+}
+
+function loaded() {
+	$loadder.fadeOut();
+}
+
+$( document ).ready(function() {
+	// Fade Loading
+    setTimeout(loaded, 900);
+
+});
