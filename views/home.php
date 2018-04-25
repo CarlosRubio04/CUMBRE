@@ -1,12 +1,12 @@
 <section class="home">
 	<div class="homeContainer">
 		<div class="u-logo">
-			<img src="img/logo.png" alt="CUMBRE">
+			<img src="img/logo.png" alt="CUMBRE" class="img-responsive">
 		</div>
 
 		<div class="homeContainerLogin">
 			<h1>LOGIN</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus perferendis error tempore vel culpa, cum accusantium quod nemo voluptatibus consectetur molestiae molestias perspiciatis laborum in, dolorum voluptatum deserunt, aut excepturi.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ex, perferendis fugiat reprehenderit accusantium quia repellat cupiditate dolorum</p>
 
 			<div class="u-form">
 				<form action="">
@@ -23,9 +23,9 @@
 						<a href="?content=dashboard" class="btn btn-sub">INGRESAR</a>
 					</div>
 				</form>
-				<a href="#" class="text-center">
+				<!-- <a href="#" class="text-center">
 					¿Olvidaste tu contraseña?
-				</a>
+				</a> -->
 			</div>
 		</div>
 	</div>

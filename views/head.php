@@ -6,7 +6,7 @@
       <meta name="author" content="BRAND MEDIA">
       <title>CUMBRE</title>
       
-      <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i|Didact+Gothic" rel="stylesheet">
 
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <!-- Latest compiled and minified CSS -->

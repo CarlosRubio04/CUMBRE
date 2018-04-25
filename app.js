@@ -21,7 +21,7 @@ function loading() {
 }
 
 function loaded() {
-	$loadder.fadeOut();
+	$loadder.fadeOut("slow");
 }
 
 $( document ).ready(function() {
