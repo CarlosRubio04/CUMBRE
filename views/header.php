@@ -1,17 +1,32 @@
 <header>
-	<div class="nav container">
+	<div class="nav">
 		<div class="navLogo">
 			<a href="?content=dashboard">
-				<img src="img/logo.png" alt="CUMBRE">
+				<img src="img/logo-blanco.svg" alt="CUMBRE">
 			</a>
 		</div>
 		<div class="navItems">
 			<ul>
 				<li><a href="?content=cronograma">Calendario de actividades</a></li>
-				<li><a href="#">Jhon Doe</a></li>
 				<li>
+					<a href="#">
+						Jhon Doe
+						<img src="http://placehold.it/30x30" alt="Avatar" class="img-circle">
+					</a>
+				</li>
+				<li class="u-notification">
+					<a href="#">
+						<img src="img/notification.svg" alt="Menu">
+					</a>
+				</li>
+				<li class="u-mian-menu">
 					<a href="#" onclick="openMenu()">
-						<i class="fa fa-bars" aria-hidden="true"></i>
+						<img src="img/menu.svg" alt="Menu">
+					</a>
+				</li>
+				<li class="u-mian-fases">
+					<a href="#">
+						<img src="img/menu-fases.svg" alt="Menu">
 					</a>
 				</li>
 			</ul>

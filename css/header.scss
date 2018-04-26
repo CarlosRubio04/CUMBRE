@@ -8,30 +8,84 @@ header {
 	right: 0;
 	max-width: 100%;
 	width: 100%;
-	height: 100px;
-	background-color: $blanco;
+	height: 65px;
+	background-color: $verdeOscuro;
 	z-index: 999;
 }
 
 .nav {
 	position: relative;
-	padding: .5em 0;
 	display: flex;
 	align-self: center;
+	height: 65px;
+	width: 100%;
+	padding: 0 0 0 2em;
 	&Logo {
+		height: 65px;
+		display: flex;
+		align-items: center;
 		img {
-			width: 200px;
+			height: 32px;
+			width: auto;
 		}
 	}
 	&Items {
 		margin-left: auto;
 		ul {
-			height: 60px;
+			height: 65px;
+			line-height: 0;
+			margin-bottom: 0;
 			list-style: none;
 			display: flex;
 			align-items: center;
 			li {
 				margin-left: 1em;
+
+				a {
+					color: $blanco;
+					font-size: 16px;
+					font-weight: 100;
+					@include prefix(transition, all .5s ease-in-out);
+
+					&:hover {
+						color: $verdeClaro;
+						text-decoration: none;
+					}
+				}
+			}
+		}
+		
+		.u-notification {
+			width: 64px;
+			margin: 0;
+			text-align: center;
+			a {
+				color: $verdeClaro;
+			}
+		}
+		
+		.u-mian-menu {
+			width: 64px;
+			margin: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-color: $verdeNeutro;
+			height: 65px;
+			a {
+
+			}
+		}
+		.u-mian-fases {
+			width: 64px;
+			margin: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-color: $verdeOscuro2;
+			height: 65px;
+			a {
+
 			}
 		}
 	}
