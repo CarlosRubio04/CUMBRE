@@ -26,6 +26,10 @@
 // Cromonograma
 @import './css/cronograma';
 
+
+// Mapa
+@import './css/mapa';
+
 // Esentials
 
 body {
@@ -88,9 +92,8 @@ h1, h2, h3, h4 {
 }
 
 .main {
-	min-height: 100vh;
-	background-color: $back;
-	padding-top: 120px;
+	min-height: calc(100vh - 65px);
+	margin-top: 65px;
 }
 // Inputs 
 .btn-sub {

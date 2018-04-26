@@ -25,7 +25,7 @@
 					</a>
 				</li>
 				<li class="u-mian-fases">
-					<a href="#">
+					<a href="#" onclick="mapaMenu()">
 						<img src="img/menu-fases.svg" alt="Menu">
 					</a>
 				</li>

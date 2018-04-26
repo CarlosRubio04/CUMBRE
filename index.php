@@ -6,6 +6,7 @@
     <?php 
     if(isset($_REQUEST['content'])){
       require_once('views/header.php');
+      require_once('views/mapa.php');
     }
 
     if(!isset($_REQUEST['content'])){

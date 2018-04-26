@@ -1,0 +1,82 @@
+@import './variables';
+
+.mapa {
+	position: fixed;
+	right: -5px;
+	top: 65px;
+	z-index: 999;
+	height: calc(100vh - 65px);
+
+	svg {
+		height: calc(100vh - 65px);
+		width: auto;
+
+		.alistamientoBtn {
+
+			cursor: pointer;
+			@include prefix(transition, all .5s ease-in-out);
+
+			&Mark {
+				@include prefix(transition, all .5s ease-in-out);
+			}
+			&:hover {
+				
+				.alistamientoBtnMark {
+					fill: $verdeOscuro;
+					stroke: $verdeClaro;
+				}
+			}
+		}
+
+		.campamentoBaseBtn {
+
+			cursor: pointer;
+			@include prefix(transition, all .5s ease-in-out);
+
+			&Mark {
+				@include prefix(transition, all .5s ease-in-out);
+			}
+			&:hover {
+				
+				.campamentoBaseBtnMark {
+					fill: $verdeOscuro;
+					stroke: $verdeClaro;
+				}
+			}
+		}
+
+		.campamentoUnoBtn {
+
+			cursor: pointer;
+			@include prefix(transition, all .5s ease-in-out);
+
+			&Mark {
+				@include prefix(transition, all .5s ease-in-out);
+			}
+			&:hover {
+				
+				.campamentoUnoBtnMark {
+					fill: $verdeOscuro;
+					stroke: $verdeClaro;
+				}
+			}
+		}
+
+		.campamentoDosBtn {
+
+			cursor: pointer;
+			@include prefix(transition, all .5s ease-in-out);
+
+			&Mark {
+				@include prefix(transition, all .5s ease-in-out);
+			}
+			&:hover {
+				
+				.campamentoDosBtnMark {
+					fill: $verdeOscuro;
+					stroke: $verdeClaro;
+				}
+			}
+		}
+	}
+}
