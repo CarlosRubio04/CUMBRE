@@ -16,7 +16,7 @@ $menuMap = $('#menuMapa');
 function mapaMenu() {
 	$menuMap.toggle( "slow", function() {
     	// Animation complete.
- 	});
+    });
 }
 
 //Loadder
@@ -33,16 +33,39 @@ function loaded() {
 
 $( document ).ready(function() {
 	// Fade Loading
-    setTimeout(loaded, 900);
+	setTimeout(loaded, 900);
 
 });
+
+
+//Ilustracion 
+$dashboardSvg = $('#dashboardSvg');
+
+$("#mysvg").velocity(
+	{ tween: 200 },
+	{ progress: animViewbox }
+	)
+
+function animViewbox (elements, complete, remaining, start, tweenValue) {
+	elements[0].setAttribute('viewBox', '0 0 ' + tweenValue + ' ' + tweenValue);  
+}
 
 
 //Boton alistamiento 
 $btnAlistamiento = $('#alistamientoBtn');
 $btnAlistamiento.click(function(){
-	loading();
-	window.location.href = "?content=alistamiento";
+
+	$dashboardSvg.velocity(
+		{ tween: 200 },
+		{ progress: animViewbox }
+		)
+
+	function animViewbox (elements, complete, remaining, start, tweenValue) {
+		elements[0].setAttribute('viewBox', '800 0 1022 1090');  
+	}
+
+	// loading();
+	// window.location.href = "?content=alistamiento";
 });
 
 //Boton Campamento Base
