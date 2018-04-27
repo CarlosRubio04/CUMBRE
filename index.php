@@ -15,6 +15,8 @@
       require_once('views/dashboard.php');
     }elseif($_REQUEST['content']=='alistamiento'){
       require_once('views/alistamiento.php');
+    }elseif($_REQUEST['content']=='dash-alistamiento'){
+      require_once('views/dash-alistamiento.php');
     }elseif($_REQUEST['content']=='base'){
       require_once('views/base.php');
     }elseif($_REQUEST['content']=='uno'){

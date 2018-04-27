@@ -40,32 +40,21 @@ $( document ).ready(function() {
 
 //Ilustracion 
 $dashboardSvg = $('#dashboardSvg');
-
-$("#mysvg").velocity(
-	{ tween: 200 },
-	{ progress: animViewbox }
-	)
-
-function animViewbox (elements, complete, remaining, start, tweenValue) {
-	elements[0].setAttribute('viewBox', '0 0 ' + tweenValue + ' ' + tweenValue);  
-}
-
-
 //Boton alistamiento 
 $btnAlistamiento = $('#alistamientoBtn');
 $btnAlistamiento.click(function(){
 
-	$dashboardSvg.velocity(
-		{ tween: 200 },
-		{ progress: animViewbox }
-		)
+	// $dashboardSvg.velocity(
+	// 	{ tween: 200 },
+	// 	{ progress: animViewbox }
+	// 	)
 
-	function animViewbox (elements, complete, remaining, start, tweenValue) {
-		elements[0].setAttribute('viewBox', '800 0 1022 1090');  
-	}
+	// function animViewbox (elements, complete, remaining, start, tweenValue) {
+	// 	elements[0].setAttribute('viewBox', '800 0 1022 1090');  
+	// }
 
-	// loading();
-	// window.location.href = "?content=alistamiento";
+	loading();
+	window.location.href = "?content=dash-alistamiento";
 });
 
 //Boton Campamento Base

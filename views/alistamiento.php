@@ -1,101 +1,136 @@
-<section class="main alistamiento">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-8">
-				<h1 class="title">
-					ALISTAMIENTO
-				</h1>
+<section class="main inner alistamiento">
+	<div class="alistamientoContainer">
+		<div class="profile">
+			<h1 class="title">
+				Alistamiento
+			</h1>
+			<div class="avatar">
+				<h4 class="headerLabel">
+					Selecciona tu avatar
+				</h4>
+				<div class="avatarItems">
+					<button>
+						<img src="http://placehold.it/40x40" alt="Avatar">
+					</button>
+					<button>
+						<img src="http://placehold.it/40x40" alt="Avatar">
+					</button>
+					<button>
+						<img src="http://placehold.it/40x40" alt="Avatar">
+					</button>
+					<button>
+						<img src="http://placehold.it/40x40" alt="Avatar">
+					</button>
+					<button>
+						<img src="http://placehold.it/40x40" alt="Avatar">
+					</button>
+				</div>
 			</div>
-			<div class="col-md-4">
-				<a href="?content=base" class="btn btn-main">
-					CAMPAMENTO BASE
-				</a>
+			<div class="data">
+				<h4 class="headerLabel">
+					Verifica tu información
+				</h4>
+				<div class="dataGroup">
+					<small>Nombre</small>
+					<p>John</p>
+				</div>
+				<div class="dataGroup">
+					<small>Apellido</small>
+					<p>Doe</p>
+				</div>
+				<div class="dataGroup">
+					<small>E-mail</small>
+					<p>John-doe@gmail.com</p>
+				</div>
+			</div>
+
+			<div class="report">
+				<div class="dataGroup">
+					<small>Diagnostico personal</small>
+					<div class="pdf">
+						<div class="pdfIcon">
+							<a href="#">
+								<img src="img/pdf.svg" alt="PDF">
+							</a>
+						</div>
+						<div class="pdfInfo">
+							<a href="#">Ver Diagnostico</a>
+							<span>0099008800.pdf</span>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 
+		<div class="teamProfile">
+			<h4 class="title">
+				Tu Equipo
+			</h4>
 
-		<div class="row">
-			<div class="col-md-5">
-				<h4>Para empezar</h4>
-				<p>Elige tu avatar</p>
-				<div class="avatars">
-					<img src="http://via.placeholder.com/100x100" alt="">
-					<img src="http://via.placeholder.com/100x100" alt="">
-					<img src="http://via.placeholder.com/100x100" alt="">
-					<img src="http://via.placeholder.com/100x100" alt="">
-					<img src="http://via.placeholder.com/100x100" alt="">
+			<div class="teamName">
+				<input type="text" class="form-control" value="Brand Media Team">
+				<button class="btn">cambiar</button>
+			</div>
+
+			<div class="teamList">
+				<small>Integrantes del equipo</small>
+
+				<div class="person">
+					<div class="avatar">
+						<img src="http://placehold.it/50x50" alt="Avatar">
+					</div>
+					<div class="info">
+						<p class="name">John Doe</p>
+						<p class="mail">jhon-doe@javeriana.com</p>
+					</div>
 				</div>
 
-				<p>Verifica tu información</p>
+				<div class="person">
+					<div class="avatar">
+						<img src="http://placehold.it/50x50" alt="Avatar">
+					</div>
+					<div class="info">
+						<p class="name">John Doe</p>
+						<p class="mail">jhon-doe@javeriana.com</p>
+					</div>
+				</div>
 
-				<div class="information">
-					<div class="item">
-						<small>Nombre</small>
-						<p>John</p>
+				<div class="person">
+					<div class="avatar">
+						<img src="http://placehold.it/50x50" alt="Avatar">
 					</div>
-					<div class="item">
-						<small>Apellido</small>
-						<p>Doe</p>
+					<div class="info">
+						<p class="name">John Doe</p>
+						<p class="mail">jhon-doe@javeriana.com</p>
 					</div>
-					<div class="item">
-						<small>E-mail</small>
-						<p>john-doe@mail.com</p>
+				</div>
+
+				<div class="person">
+					<div class="avatar">
+						<img src="http://placehold.it/50x50" alt="Avatar">
 					</div>
-					<div class="item">
-						<small>Diagnostico personal</small>
-						<p>0000009999.pdf</p>
+					<div class="info">
+						<p class="name">John Doe</p>
+						<p class="mail">jhon-doe@javeriana.com</p>
 					</div>
 				</div>
 			</div>
 
-			<div class="col-md-7">
-				<h4>Tu equipo</h4>
-				<div class="input-group">
-					<input type="text" class="form-control" aria-label="..." value="Brand Media Team">
-					<div class="input-group-btn">
-						<button type="button" class="btn btn-default">
-							CAMBIAR
-						</button>
-					</div>
-				</div>
-				<hr>
-				<h4>Integrantes del equipo</h4>
-				<hr>
-				<div class="integrantes">	
-					<div class="integrante">
-						<img src="http://via.placeholder.com/100x100" alt="">
-						<div class="data">
-							<p>John Doe</p>
-							<p>jhon-doe@javeriana.com</p>
+			<div class="report">
+				<div class="dataGroup">
+					<small>Diagnostico personal</small>
+					<div class="pdf">
+						<div class="pdfInfo">
+							<a href="#">Ver Diagnostico</a>
+							<span>0099008800.pdf</span>
 						</div>
-					</div>
-					<div class="integrante">
-						<img src="http://via.placeholder.com/100x100" alt="">
-						<div class="data">
-							<p>John Doe</p>
-							<p>jhon-doe@javeriana.com</p>
-						</div>
-					</div>
-					<div class="integrante">
-						<img src="http://via.placeholder.com/100x100" alt="">
-						<div class="data">
-							<p>John Doe</p>
-							<p>jhon-doe@javeriana.com</p>
-						</div>
-					</div>
-					<div class="integrante">
-						<img src="http://via.placeholder.com/100x100" alt="">
-						<div class="data">
-							<p>John Doe</p>
-							<p>jhon-doe@javeriana.com</p>
+						<div class="pdfIcon">
+							<a href="#">
+								<img src="img/pdf.svg" alt="PDF">
+							</a>
 						</div>
 					</div>
 				</div>
-				<hr>
-				<div class="item">
-						<small>Diagnostico personal</small>
-						<p>0000009999.pdf</p>
-					</div>
 			</div>
 		</div>
 	</div>

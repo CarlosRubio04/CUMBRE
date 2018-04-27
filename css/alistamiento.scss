@@ -1,50 +1,204 @@
 @import './variables';
 
-h4 {
-	font-weight: 600;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-}
-.avatars {
-	display: flex;
-	padding: 2em 0;
-	img {
-		width: 50px;
-		height: 50px;
-		border-radius: 50%;
-		margin-right: 1em;
-	}
-}
-
-.integrantes {
-	display: flex;
-	flex-wrap: wrap;
-
-	.integrante {
-		width: 50%;
+.alistamiento {
+	position: relative;
+	&Container {
+		width: 100%;
+		position: relative;
 		display: flex;
-		img {
-			width: 50px;
-			height: 50px;
-			border-radius: 50%;
+		flex-wrap: nowrap;
+
+		.profile {
+			width: 40%;
+			max-width: 600px;
+			min-height: calc(100vh - 65px);
+			padding: 2em 2em;
+			background-color: $blancusco;
+			display: flex;
+			flex-direction: column;
+		}
+
+		.teamProfile {
+			margin-top: 140px;
+			width: 80%;
+			max-width: 1000px;
+			padding: 0 4em;
+
+			.title {
+				font-size: 20px;
+				color: $verdeOscuro2;
+			}
+
+			.teamName {
+				display: flex;
+				flex-wrap: nowrap;
+				.form-control {
+					height: 50px;
+					border-radius: 0;
+					margin-top: 0;
+					border: 1px solid $verdeClaro;
+				}
+				.btn {
+					height: 50px;
+					background-color: $verdeClaro;
+					color: $blanco;
+					font-weight: 100;
+					font-size: 12px;
+					letter-spacing: 2px;
+					text-transform: uppercase;
+					border-radius: 0;
+				}
+			}
+
+			.teamList {
+				display: flex;
+				flex-wrap: wrap;
+				margin-top: 66px;
+				small {
+					font-size: 14px;
+					font-weight: 100;
+					width: 100%;
+				}
+
+				.person {
+					margin-top: 2em;
+					width: 48%;
+					display: flex;
+					flex-wrap: nowrap;
+					align-items: center;
+
+					.avatar {
+						margin-right: 1em;
+						margin-top: 0;
+						img {
+							border-radius: 50%;
+							border: 1px solid $verdeOscuro;
+						}
+					}
+
+					.info {
+						p {
+							margin: 0;
+						}
+						.name {
+							color: #8F9E8B;
+							font-weight: 600;
+							font-size: 14px;
+						}
+						.mail {
+							font-weight: 100;
+							font-size: 12px;
+						}
+					}
+				}
+			}
+			.report {
+				margin-top: 225px;
+				margin-left: auto;
+				width: 200px;
+				.dataGroup {
+
+					small {
+						text-align: right;
+					}
+
+					.pdf {
+						display: flex;
+						flex-wrap: nowrap;
+						padding: 12px 0;
+						justify-content: flex-end;
+
+						&Icon {
+							margin-right: 0;
+							margin-left: 1em;
+						}
+
+						&Info {
+							a {
+								text-align: right;
+							}
+							span {
+								display: block;
+								text-align: right;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+}
+
+
+.avatar {
+	margin-top: 26px;
+	&Items {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		margin-top: 34px;
+		button{
+			background-color: none;
+			border: 0;
+			padding: 0;
 			margin-right: 1em;
+			img {
+				border-radius: 50%;
+			}
 		}
 	}
 }
 
-.item {
-	display: block;
-	padding: 1em 0;
-
-	small {
-		font-weight: 100;
-		font-size: 9px;
-		letter-spacing: 2px;
+.data {
+	margin-top: 60px;
+	&Group {
+		margin-top: 16px;
+		small {
+			font-size: 14px;
+			color: $verdeOscuro2;
+		}
+		p {
+			font-size: 20px;
+			padding: 8px;
+			color: $verdeOscuro;
+			border-bottom: 1px solid $verdeClaro;
+		}
 	}
-	p {
-		font-weight: 700;
-		letter-spacing: 2px;
-		color: $grisOscuro;
-		margin-top: 4px;
+}
+
+.report {
+	margin-top: 100px;
+	.dataGroup {
+
+		small {
+			font-size: 14px;
+			color: $verdeOscuro2;
+			display: block;
+		}
+
+		.pdf {
+			display: flex;
+			flex-wrap: nowrap;
+			padding: 12px 0;
+
+			&Icon {
+				margin-right: 1em;
+			}
+
+			&Info {
+				a {
+					color: $verdeClaro;
+					font-size: 16px;
+					font-weight: 200;
+					display: block;
+				}
+				span {
+					font-size: 10px;
+					font-weight: 100;
+					letter-spacing: 1.5;
+				}
+			}
+		}
 	}
 }
