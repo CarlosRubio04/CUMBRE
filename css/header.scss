@@ -99,10 +99,10 @@ header {
 	position: fixed;
 	width: 100%;
 	height: 100vh;
-	background-color: $blancusco;
-	background-image: url(./img/cumbre.png);
+	background-color: $blanco;
+	background-image: url(img/nubes.png);
+	background-position: right 2%; 
 	background-repeat: no-repeat;
-	background-position: right bottom;
 	z-index: 999;
 
 	&Container {
@@ -111,16 +111,31 @@ header {
 		padding: 4em;
 		position: relative;
 
+		h4 {
+			color: $verdeOscuro;
+			font-size: 25px;
+			font-weight: 500;
+		}
+
 		ul {
 			list-style: none;
+			padding-left: 0;
 
 			li {
 				line-height: 4;
 				a {
-					color: $grisOscuro;
+					color: #8F9E8B;
 					font-weight: 100;
-					letter-spacing: 3px;
-					font-size: 14px;
+					font-size: 18px;
+					padding-bottom: 6px;
+					border-bottom: 1px solid transparent;
+					@include prefix(transition, all .5s ease-in);
+
+					&:hover {
+						color: $verdeClaro;
+						border-bottom: 1px solid $verdeClaro;
+						text-decoration: none;
+					}
 				}
 			}
 		}
