@@ -38,7 +38,7 @@ body {
 }
 
 h1, h2, h3, h4 {
-	font-family: 'Didact Gothic', sans-serif;
+	font-family: 'Didact Gothic', sans-serif !important;
 }
 
 .loader {
@@ -106,7 +106,18 @@ h1, h2, h3, h4 {
 	border-radius: 0;
 	font-weight: 700;
 }
-
+.btn-next {
+	background-color: $verdeNeutro;
+	color: $blanco !important;
+	width: 100%;
+	max-width: 250px;
+	height: 50px;
+	line-height: 40px;
+	font-size: 15px;
+	letter-spacing: 3px;
+	border-radius: 0;
+	font-weight: 100;
+}
 .btn-main {
 	background-color: transparent;
 	display: block;
