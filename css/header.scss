@@ -92,13 +92,13 @@ header {
 }
 
 .menu {
-	top: 0;
+	top: 65px;
 	left: 0;
 	right: 0;
 	bottom: 0;
 	position: fixed;
 	width: 100%;
-	height: 100vh;
+	height: calc(100vh - 65px);
 	background-color: $blanco;
 	background-image: url(img/nubes.png);
 	background-position: right 2%; 

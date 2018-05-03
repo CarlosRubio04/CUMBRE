@@ -1,13 +1,28 @@
-<section class="main inner alistamiento">
+<section class="main alistamiento">
 	<div class="alistamientoContainer">
 		<div class="profile">
 			<h1 class="title">
-				Mi perfil
+				Alistamiento
 			</h1>
 			<div class="avatar">
+				<h4 class="headerLabel">
+					Selecciona tu avatar
+				</h4>
 				<div class="avatarItems">
 					<button>
-						<img src="http://placehold.it/60x60" alt="Avatar">
+						<img src="http://placehold.it/40x40" alt="Avatar">
+					</button>
+					<button>
+						<img src="http://placehold.it/40x40" alt="Avatar">
+					</button>
+					<button>
+						<img src="http://placehold.it/40x40" alt="Avatar">
+					</button>
+					<button>
+						<img src="http://placehold.it/40x40" alt="Avatar">
+					</button>
+					<button>
+						<img src="http://placehold.it/40x40" alt="Avatar">
 					</button>
 				</div>
 			</div>
@@ -45,17 +60,17 @@
 					</div>
 				</div>
 			</div>
-
-
-			<div class="estadisticas">
-				<h3>Mis estadisticas de rendimiento</h3>
-			</div>
 		</div>
 
 		<div class="teamProfile">
 			<h4 class="title">
-				Brand Media Team
+				Tu Equipo
 			</h4>
+
+			<div class="teamName">
+				<input type="text" class="form-control" value="Brand Media Team">
+				<button class="btn">cambiar</button>
+			</div>
 
 			<div class="teamList">
 				<small>Integrantes del equipo</small>
@@ -103,23 +118,19 @@
 
 			<div class="report">
 				<div class="dataGroup">
-					<small>Diagnostico grupal </small>
+					<small>Diagnostico personal</small>
 					<div class="pdf">
+						<div class="pdfInfo">
+							<a href="#">Ver Diagnostico</a>
+							<span>0099008800.pdf</span>
+						</div>
 						<div class="pdfIcon">
 							<a href="#">
 								<img src="img/pdf.svg" alt="PDF">
 							</a>
 						</div>
-						<div class="pdfInfo">
-							<a href="#">Ver Diagnostico</a>
-							<span>0099008800.pdf</span>
-						</div>
 					</div>
 				</div>
-			</div>
-
-			<div class="estadisticas">
-				<h3>Estadisticas de rendimiento grupales</h3>
 			</div>
 		</div>
 	</div>

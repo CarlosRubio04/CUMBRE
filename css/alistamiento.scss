@@ -1,5 +1,42 @@
 @import './variables';
 
+
+.inner {
+	background-color: $blancusco;
+	background-image: url(img/nubes.png);
+	height: calc(100vh - 65px);
+}
+.itemIlustration {
+	position: absolute;
+	width: 100%;
+	right: 0;
+	bottom: 0;
+}
+
+.info{
+	width: 50%;
+	h1 {
+		margin: 0;
+	}
+	p {
+		color: #8F9E8B;
+		font-size: 14px;
+		font-weight: 100;
+		letter-spacing: 2px;
+		margin-top: 40px;
+	}
+}
+.next {
+	margin-top: 16px;
+}
+.alistamientoWrapper {
+	z-index: 9999;
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 40px;
+}
 .alistamiento {
 	position: relative;
 	&Container {
@@ -92,39 +129,7 @@
 					}
 				}
 			}
-			.report {
-				margin-top: 225px;
-				margin-left: auto;
-				width: 200px;
-				.dataGroup {
-
-					small {
-						text-align: right;
-					}
-
-					.pdf {
-						display: flex;
-						flex-wrap: nowrap;
-						padding: 12px 0;
-						justify-content: flex-end;
-
-						&Icon {
-							margin-right: 0;
-							margin-left: 1em;
-						}
-
-						&Info {
-							a {
-								text-align: right;
-							}
-							span {
-								display: block;
-								text-align: right;
-							}
-						}
-					}
-				}
-			}
+		
 		}
 	}
 
@@ -168,7 +173,7 @@
 }
 
 .report {
-	margin-top: 100px;
+
 	.dataGroup {
 
 		small {

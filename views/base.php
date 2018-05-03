@@ -1,27 +1,30 @@
-<section class="main base">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-8">
+<section class="main inner base">
+	<div class="container-fluid">
+		<div class="alistamientoWrapper">
+			<div class="info">
 				<h1 class="title">
-					CAMPAMENTO <br/>BASE
+					Campamento base
 				</h1>
-			</div>
-			<div class="col-md-4">
-				<a href="?content=uno" class="btn btn-main">
-					CAMPAMENTO UNO
-				</a>
-			</div>
-			<div class="col-md-6">
-				<hr/>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, autem, quaerat. Perspiciatis maiores, delectus, quod omnis ex molestiae, id aspernatur rem similique sed in error, sit consequuntur! Unde cum, minima.
+					Hola Equipo, les vamos a contar que va a ocurrir en esta etapa. El campamento base, busca que se
+					identifique un proyecto alineado a los objetivos de la organización, que les permita como equipo
+					un logro conjunto y compartido. En esta fase además recibirán formación sobre como gestionar un proyecto.
+					<br/>
+					Por ello adelante, y sigan escalando hacia la cumbre.
 				</p>
-				<hr/>
-
-				<a href="?content=base-inner" class="btn btn-main">
-					INGRESAR
+				<a href="?content=formulacion" class="btn btn-next">
+					Ingresar
 				</a>
 			</div>
+			<div class="next">
+				<a href="?content=uno" class="btn btn-main">
+					Campamento Uno
+				</a>
+			</div>
+		</div>
+
+		<div class="itemIlustration">
+			<img src="img/base.svg" alt="Alistamiento">
 		</div>
 	</div>
 </section>

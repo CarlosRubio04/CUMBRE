@@ -15,6 +15,8 @@
       require_once('views/dashboard.php');
     }elseif($_REQUEST['content']=='alistamiento'){
       require_once('views/alistamiento.php');
+    }elseif($_REQUEST['content']=='alistamiento-inner'){
+      require_once('views/alistamiento-inner.php');
     }elseif($_REQUEST['content']=='dash-alistamiento'){
       require_once('views/dash-alistamiento.php');
     }elseif($_REQUEST['content']=='base'){
@@ -27,8 +29,6 @@
       require_once('views/base-inner.php');
     }elseif($_REQUEST['content']=='formulacion'){
       require_once('views/formulacion.php');
-    }elseif($_REQUEST['content']=='etapas'){
-      require_once('views/etapas.php');
     }elseif($_REQUEST['content']=='agregar-actividad'){
       require_once('views/agregar-actividad.php');
     }elseif($_REQUEST['content']=='cronograma'){
@@ -50,6 +50,7 @@
   <!-- All js -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <script src="js/velocity.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="app.js"></script>
 </body>
 </html>

@@ -1,11 +1,13 @@
 <section class="main formulacion">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-10">
+			<div class="col-md-9">
 				<h1 class="formulacionTitle">Definición del Proyecto</h1>
 			</div>
-			<div class="col-md-2">
-				<a href="#"><i class="fa fa-angle-double-right fa-2x" aria-hidden="true"></i></a>
+			<div class="col-md-3">
+				<a href="?content=agregar-actividad" class="btn btn-main">
+					Agregar Actividades
+				</a>
 			</div>
 		</div>
 		<div class="row">
@@ -57,7 +59,6 @@
 						<label for="">Descripción del proyecto</label>
 						<textarea name="" id="" rows="5" class="form-control" placeholder="Descripción del proyecto."></textarea>
 					</div>
-					<h4>Objetivos del proyecto</h4>
 					<div class="form-group">
 						<label for="">Objetivo general</label>
 						<textarea name="" id="" rows="5" class="form-control" placeholder="Objetivo general"></textarea>
@@ -67,10 +68,7 @@
 						<textarea name="" id="" rows="5" class="form-control" placeholder="Objetivos especificos"></textarea>
 					</div>
 
-					<h4>Alcance e impacto</h4>
-					<hr>
-					<h4>Tiempo</h4>
-					<hr>
+					<h4 class="formulacionSubTitle">Tiempo</h4>
 
 					<div class="form-group">
 						<label for="">Fecha de inicio</label>
@@ -89,10 +87,6 @@
 					<div class="form-group">
 						<label for="">Resultados esperados</label>
 						<input type="text" name="" class="form-control" placeholder="Resultados esperados">
-					</div>
-					<div class="form-group">
-						<label for="">Cronograma</label>
-						<a href="?content=cronograma" class="btn btn-main">Cronograma</a>
 					</div>
 					<div class="form-group">
 						<label for="">Ejecución del proyecto</label>

@@ -16,42 +16,68 @@
 		margin: 60px 0;
 		font-size: 25px;
 	}
+}
 
-	label {
-		color: $verdeOscuro2 !important;
-		font-size: 14px;
-		font-weight: 400;
+.addActivity {
+	background-color: $blancusco;
+	width: 100%;
+	min-height: 100vh;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	&Container {
+		max-width: 800px;
+		width: 800px;
 	}
-	.form-group {
-		margin-top: 60px;
-	}
-	input, textarea {
-		background-color: transparent;
-		border-top: 1px solid $verdeClaro;
-		border-bottom: 1px solid $verdeClaro;
-		border-left: 0;
-		border-right: 0;
-		border-radius: 0;
-		height: 45px;
-		margin-top: 10px;
-		color: $gris;
-		font-size: 14px;
-		font-weight: 100;
-		box-shadow: none; 
-	}
-	textarea {
-		height: 100px;
-		padding-top: 2em;
-	}
-	select {
-		border: 0;
-		box-shadow: none;
-		background-color: transparent;
-		height: 45px;
-	}
-	.u-selectWraper {
-		margin-top: 10px;
-		border-top: 1px solid $verdeClaro;
-		border-bottom: 1px solid $verdeClaro;
+	&Header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		.name {
+
+		}
+		.activityDate {
+			display: flex;
+			.user, .fase  {
+				.dropdown {
+					width: 100%;
+
+					.btn {
+						border: none;
+						width: 100%;
+						height: 40px;
+						color: $verdeOscuro;
+						background-color: transparent;
+						border-radius: 0;
+					}
+				}
+			}
+			.date {
+				display: flex;
+				input {
+					border: none;
+					box-shadow: none;
+					height: 40px;
+					width: 80px;
+					background-color: transparent;
+					border-radius: 0;
+				}
+				.icon {
+					width: 40px;
+					height: 40px;
+					background-color: $verdeClaro;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+				}
+			}
+			.fase {
+				
+			}
+		}
+		
 	}
 }
