@@ -2,14 +2,12 @@
 
 .mapa {
 	position: fixed;
-	right: -5px;
-	top: 65px;
-	z-index: 99;
-	height: calc(100vh - 65px);
+	bottom: -20px;
+	width: 100%;
 
 	svg {
-		height: calc(100vh - 65px);
-		width: auto;
+		height: auto;
+		width: 100%;	
 
 		.alistamientoBtn {
 

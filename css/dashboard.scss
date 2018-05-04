@@ -36,18 +36,19 @@
  		svg {
  			width: 100vw;
  			height: auto;
- 			position: fixed;
- 			bottom: -10px;
 
  			.nube1 {
- 				animation: nubeUno 60s linear infinite;
- 				transform: translateX(0);
+ 				animation: nubeUno 150s ease-in-out infinite;
+ 				// transform: translateX(0);
  			}
 
  			.nube2 {
- 				animation: nubeDos 100s linear infinite;
- 				transform: translateX(0);
- 				z-index: 9999;
+ 				animation: nubeDos 140s ease-in-out infinite;
+ 				// transform: translateX(0);
+ 			}
+ 			.nube3 {
+ 				animation: nubeTres 60s ease-in-out infinite;
+ 				// transform: translateX(0);
  			}
  		}
  	}
@@ -67,32 +68,39 @@
 
  @keyframes nubeUno {
  	0% {
- 		transform: translateX(0);
+ 		transform: translateX(359px);
  	}
- 	40% {
- 		transform: translateX(-1000px);
- 	}
- 	45% {
- 		opacity: 0;
- 		transform: translateX(2000px);
+ 	50% {
+ 		transform: translateX(1059px);
  	}
  	100% {
- 		transform: translateX(0);
+ 		transform: translateX(359px);
  	}
  }
 
  @keyframes nubeDos {
  	0% {
- 		transform: translateX(0);
+ 		transform: translateX(1150px);
  	}
- 	40% {
- 		transform: translateX(-1000px);
- 	}
- 	45% {
- 		opacity: 0;
- 		transform: translateX(2000px);
+ 	50% {
+ 		transform: translateX(5px);
  	}
  	100% {
- 		transform: translateX(0);
+ 		transform: translateX(1150px);
+ 	}
+ }
+
+ @keyframes nubeTres {
+ 	0% {
+ 		opacity: .5;
+ 		transform: translateX(189px);
+ 	}
+ 	50% {
+ 		opacity: 1;
+ 		transform: translateX(200px);
+ 	}
+ 	100% {
+ 		opacity: .5;
+ 		transform: translateX(189px);
  	}
  }

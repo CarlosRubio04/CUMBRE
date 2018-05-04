@@ -6,7 +6,6 @@
     <?php 
     if(isset($_REQUEST['content'])){
       require_once('views/header.php');
-      //require_once('views/mapa.php');
     }
 
     if(!isset($_REQUEST['content'])){
@@ -45,7 +44,6 @@
       require_once('views/404.php');
     } 
     ?>
-    <?php require_once('views/footer.php'); ?>
 
   <!-- All js -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

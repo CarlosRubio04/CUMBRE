@@ -27,3 +27,5 @@
 		</div>
 	</div>
 </section>
+
+<?php require_once('views/mapa.php'); ?>
