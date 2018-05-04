@@ -1,28 +1,32 @@
-<section class="main uno">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-8">
+<section class="main inner uno">
+	<div class="container-fluid">
+		<div class="alistamientoWrapper">
+			<div class="info">
 				<h1 class="title">
-					CAMPAMENTO <br/>UNO
+					Campamento Uno
 				</h1>
-			</div>
-			<div class="col-md-4">
-				<a href="?content=dos" class="btn btn-main">
-					CAMPAMENTO DOS
-				</a>
-			</div>
-
-			<div class="col-md-6">
-				<hr/>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, autem, quaerat. Perspiciatis maiores, delectus, quod omnis ex molestiae, id aspernatur rem similique sed in error, sit consequuntur! Unde cum, minima.
+					Hola Equipo, les vamos a contar que va a ocurrir en esta etapa. Es el momento de la formación, es
+					decir aquí recibirán las herramientas necesarias para que como equipo puedan ascender a la
+					cumbre. Tendrán capacitaciones presenciales o virtuales en dos dimensiones: Resultados y
+					Relaciones. Podrán seleccionar según sus necesidades de formación los cursos que requieren para
+					avanzar.
+					<br/>
+					Por ello adelante y hacia la cumbre.
 				</p>
-				<hr/>
-
-				<a href="?content=cursos" class="btn btn-main">
-					INGRESAR
+				<a href="?content=cursos" class="btn btn-next">
+					Ingresar
 				</a>
 			</div>
+			<div class="next">
+				<a href="?content=uno" class="btn btn-main">
+					Campamento Dos
+				</a>
+			</div>
+		</div>
+
+		<div class="itemIlustration">
+			<img src="img/base.svg" alt="Alistamiento">
 		</div>
 	</div>
 </section>
